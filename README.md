@@ -59,26 +59,33 @@ Borrow = A’B
 
  Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 ```
+Developed by:Vignesh raaj 
+Reg no:212223230239
+
 module HALF_ADDSUB(a,b,sum,carry,D,Bo);
 input a,b;
 output sum,carry,D,Bo;
 //HALF ADDER
 xor(sum,a,b);
 and(carry,a,b);
+
+
 //HALF SUBTRACTOR
 wire abar;
 not(abar,a);
 xor(D,a,b);
 and(Bo,abar,b);
 endmodule
-
-Developed by:Vignesh raaj 
-RegisterNumber:212223230239
 ```
 
 **RTL Schematic**
 ![alt text](<Screenshot 2024-03-19 080053.png>)
 **Output/TIMING Waveform**
-![alt text](<Screenshot 2024-03-19 075841.png>)
+##Half adder
+![new1](https://github.com/TEJA19092005/HALF_ADDER_SUBTRACTOR/assets/164043042/bef81b8c-f614-4d7e-abc0-213d8d344ee9)
+
+##half sub
+![new2](https://github.com/TEJA19092005/HALF_ADDER_SUBTRACTOR/assets/164043042/a6b1d4ad-b218-4a61-82d4-3fdbc5275edd)
+
 **Result:**
 Thus Implementation-of-Half-Adder-and-Half Subtractor-circuit is running successfully
