@@ -34,7 +34,9 @@ Borrow = A’B
 
 **Truthtable**
 
-**Half adder**![alt text](<Screenshot 2024-03-19 082300.png>)
+**Half adder**
+
+![alt text](<Screenshot 2024-03-19 082300.png>)
 
 **Half subtractor**
 
@@ -57,8 +59,8 @@ Borrow = A’B
 
  Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 ```
-Developed by:Vignesh raaj 
-Reg no:212223230239
+Developed by:M THEJESWARAN
+Reg no:212223240168
 
 module HALF_ADDSUB(a,b,sum,carry,D,Bo);
 input a,b;
