@@ -34,9 +34,7 @@ Borrow = A’B
 
 **Truthtable**
 
-**Half adder**
-
-![alt text](<Screenshot 2024-03-19 082300.png>)
+**Half adder**![alt text](<Screenshot 2024-03-19 082300.png>)
 
 **Half subtractor**
 
